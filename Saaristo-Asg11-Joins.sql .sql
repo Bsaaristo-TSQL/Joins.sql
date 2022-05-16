@@ -60,4 +60,3 @@ union
 select 'NOT SHIPPED', OrderID, OrderDate
 from Orders
 where shipdate <> 'NULL'
---conversion errors
